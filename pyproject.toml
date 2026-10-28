@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rollgenese-agentapp_jd138"
+version = "0.1.0"
+description = "通过字符级与结构级特征识别Agent 应用开发工程师·向量索引的召回与构建代价的痕迹，给出密度与命中位置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "rollgenese" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://rollgenese.github.io"
+Repository = "https://github.com/rollgenese/agentapp_jd138"
+Issues = "https://github.com/rollgenese/agentapp_jd138/issues"
+
+[project.scripts]
+agentapp_jd138 = "agentapp_jd138:main"
+
+[tool.setuptools]
+py-modules = ["agentapp_jd138"]
